@@ -1,0 +1,165 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .bir{
+    background: url("https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg.webp");
+    height: 110vh;
+  }
+  .iki{
+    background: url("https://preview.colorlib.com/theme/bizpro/video/drinkwinecover.jpg.webp");
+    height: 110vh;
+  }
+  .uc{
+    background: url("https://preview.colorlib.com/theme/bizpro/images/home/slide-2.jpg.webp");
+    height: 110vh;
+  }
+  .bir{
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+  }
+  .iki{
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+  }
+  .uc{
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+  }
+  .bir h1,p{
+    color: white;
+  }
+  .bir h1{
+    font-weight: 1200;
+    font-size: 50px;
+  }
+  .bir a{
+    font-size: 11px;
+  }
+
+  .iki h1,p{
+    color: white;
+  }
+  .iki h1{
+    font-weight: 1200;
+    font-size: 50px;
+  }
+  .iki a{
+    font-size: 11px;
+  }
+ 
+
+  .uc h1,p{
+    color: white;
+  }
+  .uc h1{
+    font-weight: 1200;
+    font-size: 50px;
+  }
+  .uc a{
+    font-size: 11px;
+  }
+
+  .btn44-45 {
+    padding: 10px 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    width: 120px;
+  }
+  
+  .btn-47 {
+    border: 2px solid rgb(183, 2, 2);
+    z-index: 1;
+    color: white;
+  }
+  
+  .btn-47:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: rgb(211, 8, 8);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-47:hover {
+    color: rgb(255, 250, 250);
+  }
+  
+  .btn-47:hover:after {
+    left: auto;
+    left: 0;
+    width: 100%;
+  }
+  
+  .btn-47:active {
+    top: 2px;
+  }
+  .head{
+    display: flex;
+    gap: 80%;
+    margin-top: 26%;
+    margin-right: 27%;
+
+  }
+    ul{
+        margin-top: 45px;
+        display: flex;
+        gap: 20%;
+    }
+
+    .mai{
+        margin-bottom: 47%;
+    }
+  

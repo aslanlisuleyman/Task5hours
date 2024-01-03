@@ -1,0 +1,85 @@
+.btn41-43 {
+    padding: 10px 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    width: 40px;
+    height: 20px;
+    margin-left: 40px;
+    
+  }
+  
+  .btn-41 {
+    border: 2px solid rgb(191, 0, 0);
+    z-index: 1;
+    color: rgb(88, 88, 88);
+  }
+  
+  .btn-41:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: rgb(204, 2, 2);
+    transition: all 0.3s ease;
+  }
+  
+  .btn-41:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .btn-41:hover:after {
+    left: auto;
+    left: 0;
+    width: 100%;
+  }
+  
+  .btn-41:active {
+    top: 2px;
+  }
+
+  img{
+    width: 35px;
+  }
+  .card{
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    // border: 1px solid black;
+    height: 380px;
+    padding-top: 35px;
+  }
+  .img{
+    border: 2px solid rgb(201, 7, 7);
+    width: 120px;
+    height: 110px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 88px;
+
+  }
+  .img:hover{
+    background-color: rgb(201, 7, 7);
+    color: white;
+    transition: 0.5s;
+  }
+
+  
+  .butt{
+    display: flex;
+    gap: 5px;
+  }

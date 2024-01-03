@@ -1,0 +1,16 @@
+.detal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+   padding-top: 170px;
+}
+.detal img{
+    width: 200px;
+}
+.detal p{
+    color: black;
+    font-size: 20px;
+}
