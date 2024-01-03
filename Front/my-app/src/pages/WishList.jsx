@@ -1,11 +1,17 @@
 import React, { useContext } from 'react'
 import Maincontext from '../context/context'
 import { Toaster } from 'react-hot-toast'
+import {Helmet} from "react-helmet";
 
 const WishList = () => {
     const{wishListItems,removeFromWishlist,handleDelete}=useContext(Maincontext)
   return (
     <div>
+      <Helmet>
+                <meta charSet="utf-8" />
+                <title>Wishlist-Page</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
         <button onClick={handleDelete} style={{backgroundColor:'red',color:'white',width:'100px',height:'45px',borderRadius:'10px',marginTop:'40px',marginLeft:'87%'}} >Delete All</button>
 
      <div style={{display:'flex' ,justifyContent:'center',paddingTop:'100px',gap:'50px',height:'250px'}}>

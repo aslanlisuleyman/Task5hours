@@ -2,6 +2,7 @@ import React from 'react'
 import { useFormik } from 'formik';
 import toast from 'react-hot-toast';
 import axios from 'axios';
+import {Helmet} from "react-helmet";
 const Add = () => {
   const formik = useFormik({
     initialValues: {
@@ -25,6 +26,11 @@ const Add = () => {
   });
   return (
     <div style={{width:'450px',paddingBottom:'100px',paddingRight:'100px',marginLeft:"33%"}} >
+       <Helmet>
+                <meta charSet="utf-8" />
+                <title>Add-Page</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
       
 
        <form style={{display:'flex',flexDirection:"column",marginLeft:'16%',paddingTop:'45%',boxShadow:" rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;"}} onSubmit={formik.handleSubmit}>
